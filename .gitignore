@@ -1,0 +1,13 @@
+obj/
+bin/
+.vs/
+*.user
+*.suo
+.env
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.pfx
+*.p12
+out/
+publish/
