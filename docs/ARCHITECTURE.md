@@ -112,6 +112,33 @@ Running a second GPT-4o call for compliance detection would double latency and c
 
 ---
 
+## References
+
+### Azure AI Search
+- [Azure AI Search docs — hybrid search](https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview)
+- [Azure AI Search — semantic ranking](https://learn.microsoft.com/en-us/azure/search/semantic-search-overview)
+- [YouTube: Azure AI Search — RAG with semantic ranking (Microsoft, 20 min)](https://www.youtube.com/watch?v=MU_r6N_NKRE)
+
+### Semantic Kernel
+- [Semantic Kernel docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
+- [SK C# RAG sample (Microsoft)](https://github.com/microsoft/semantic-kernel/tree/main/dotnet/samples/Concepts/RAG)
+- [YouTube: Semantic Kernel overview (Microsoft Reactor, 30 min)](https://www.youtube.com/watch?v=v0d4xPl0MkA)
+
+### Azure OpenAI
+- [Azure OpenAI Service docs](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
+- [GPT-4o model card](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#gpt-4o-and-gpt-4-turbo)
+- [text-embedding-3-large — embedding model docs](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#embeddings)
+
+### MiFID II Compliance
+- [MiFID II full text (EUR-Lex)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32014L0065)
+- [ESMA MiFID II Q&A](https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii)
+
+### Infrastructure
+- [Azure Bicep docs](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/)
+- [Azure Container Apps docs](https://learn.microsoft.com/en-us/azure/container-apps/)
+
+---
+
 ## API Design
 
 All endpoints follow REST conventions. Responses include `processingTimeMs` for SLA monitoring.
